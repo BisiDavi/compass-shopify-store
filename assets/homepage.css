@@ -2,11 +2,12 @@
 section.shopify-section.info-banner {
   background-color: black;
   color: white;
-  height: 300px;
+  height: 400px;
 }
 .info-banner .content h2 {
   color: white;
   font-size: 40px;
+  margin: 20px 0px;
 }
 
 .info-banner {
@@ -19,10 +20,79 @@ section.shopify-section.info-banner {
 
 .info-banner .content {
   text-align: center;
-  /* width: 50%; */
+  width: 50%;
 }
 
 .info-banner .content p {
   font-size: 20px;
   color: white;
+  text-align: center;
+}
+
+/* explore jewelry */
+section.shopify-section.explore-jewelry {
+  background-color: #111111;
+}
+
+.explore_jewelry .text-content h3 {
+  color: white;
+}
+.explore_jewelry .text-content {
+  color: white;
+}
+
+.explore_jewelry .products {
+  display: flex;
+}
+
+.explore_jewelry .products .jewelry {
+  margin: 0px 15px;
+}
+
+.explore_jewelry .products {
+  display: flex;
+  width: 60%;
+}
+
+.explore-jewelry {
+  display: flex;
+  padding: 80px 140px;
+  justify-content: space-between;
+}
+
+.explore_jewelry .products {
+  display: flex;
+  width: 65%;
+  overflow: scroll;
+}
+
+.explore_jewelry .text-content {
+  color: white;
+  width: 30%;
+}
+
+explore_jewelry .text-content p {
+  font-size: 14px;
+}
+
+.explore_jewelry .text-content h3 {
+  color: white;
+  font-size: 32px;
+  line-height: 23px;
+}
+
+.explore_jewelry .jewelry .text-content h4,
+.explore_jewelry .jewelry .text-content h6 {
+  color: white;
+}
+
+.explore_jewelry .jewelry .text-content h6 {
+  font-size: 16px;
+  line-height: 22px;
+  color: #f1c17f;
+}
+
+.explore_jewelry .jewelry .text-content h4 {
+  font-size: 14px;
+  line-height: 19px;
 }
