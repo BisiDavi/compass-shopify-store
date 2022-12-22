@@ -1,7 +1,80 @@
-<div class="hero-banner">
-    <div class="text-content">
-        <h3>Let your inner compass guide you</h3>
-        <p>Presenting You a Splendid Mix of Style and Spirituality</p>
-        <button>Explore Now</button>
-    </div>
+<div
+  class="hero-banner">
+  <div
+    class="text-content">
+    <h3>Let your inner compass guide you</h3>
+    <p>Presenting You a Splendid Mix of Style and Spirituality</p>
+    <button>Explore Now</button>
+  </div>
+  {% for block in section.blocks %}
+    <div
+      class="media">
+      {% if block.settings.image %}
+        <img
+          srcset="{%- if block.settings.image.width >= 375 -%}
+          {{ block.settings.image | image_url: width: 375 }} 375w,{%- endif -%}
+        {%- if block.settings.image.width >= 750 -%}
+          {{ block.settings.image | image_url: width: 750 }} 750w,{%- endif -%}
+        {%- if block.settings.image.width >= 1100 -%}
+          {{ block.settings.image | image_url: width: 1100 }} 1100w,{%- endif -%}
+        {%- if block.settings.image.width >= 1500 -%}
+          {{ block.settings.image | image_url: width: 1500 }} 1500w,{%- endif -%}
+        {%- if block.settings.image.width >= 1780 -%}
+          {{ block.settings.image | image_url: width: 1780 }} 1780w,{%- endif -%}
+        {%- if block.settings.image.width >= 2000 -%}
+          {{ block.settings.image | image_url: width: 2000 }} 2000w,{%- endif -%}
+        {%- if block.settings.image.width >= 3840 -%}
+          {{ block.settings.image | image_url: width: 3840 }} 3840w,{%- endif -%}
+        {%- if block.settings.image.width >= 3000 -%}
+          {{ block.settings.image | image_url: width: 3000 }} 3000w,{%- endif -%}
+        {{ block.settings.image | image_url }} {{ block.settings.image.width }}w"
+        sizes="100vw"
+        src="{{ block.settings.image | image_url: width: 1500 }}"
+        loading="lazy"
+        alt="{{ block.settings.image.alt | escape }}"
+        width="{{ block.settings.image.width }}"
+        height="{{ block.settings.image.width | divided_by: block.settings.image.aspect_ratio }}">
+      {%- else -%}
+        {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
+      {% endif %}
+    {% endfor %}
+  </div>
 </div>
+
+{% schema %}
+  {
+    "name": "Hero Banner",
+    "tag": "section",
+    "class": "hero-banner",
+    "blocks": [
+      {
+        "type": "slide",
+        "name": "Slide",
+        "limit": 2,
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Upload Image"
+          }, {
+            "type": "text",
+            "id": "title",
+            "default": "Lorem Ipsum Dolor Sit ",
+            "label": "Title"
+          }, {
+            "type": "text",
+            "id": "text",
+            "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+            "label": "Text"
+          }, {
+            "type": "text",
+            "id": "button_label",
+            "default": "Explore All",
+            "label": "Button Label"
+          }
+        ]
+      }
+    ]
+
+  }
+{% endschema %}
