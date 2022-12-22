@@ -81,6 +81,28 @@
     },
     "hallmark": {
       "type": "hallmark",
+      "blocks": {
+        "ef83e36d-0bd6-407a-8082-d57dae9ab978": {
+          "type": "hallmark-item",
+          "settings": {
+            "title": "The Inspiration",
+            "image": "shopify:\/\/shop_images\/fundamental-4.webp",
+            "description": "Let your heart be your compass, your mind your map, your soul your guide...and you will never be lost. (Ritu Ghatourey). We think that this quote is what sums up the whole idea behind the creation of our brand."
+          }
+        },
+        "184b9ece-0035-43e5-8740-2a02d1c22d83": {
+          "type": "hallmark-item",
+          "settings": {
+            "title": "The Inspiration",
+            "image": "shopify:\/\/shop_images\/fundamental-1.webp",
+            "description": "Balance as a fundamental aspect of our design philosophy, with a healthy tension between meaning and form. Our pieces are also immersed in meaning for the stones used, are sacred and precious for their specific range of spiritual vibration."
+          }
+        }
+      },
+      "block_order": [
+        "ef83e36d-0bd6-407a-8082-d57dae9ab978",
+        "184b9ece-0035-43e5-8740-2a02d1c22d83"
+      ],
       "settings": {
         "title": "Fundamentals We Follow",
         "text": "We are proud to present the duality of sophistication and ease on the one hand and the power of spiritual enrichment on the other. As a reliable jewelry brand, we specialize in ensuring top-notch customer experiences that are consciously designed to embody our four pillars of brand philosophy given below:"
