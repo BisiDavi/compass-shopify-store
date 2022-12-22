@@ -39,7 +39,7 @@
     "explore-jewelry": {
       "type": "explore-jewelry",
       "settings": {
-        "product": "",
+        "product": "frontpage",
         "title": "New Compass, Old love",
         "text": "The new handpicked Compass lineup is exclusively designed for you with one simple aim–to guide you to inspire and express your individuality while maintaining the style quotient",
         "button_label": "Explore Now"
@@ -129,6 +129,7 @@
     "site-newsletter": {
       "type": "site-newsletter",
       "settings": {
+        "image": "shopify:\/\/shop_images\/newsletter.webp",
         "title": "Join our world",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo Lorem ipsum",
         "button_label": "Send"
