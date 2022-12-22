@@ -65,6 +65,42 @@
     },
     "jewelry-collection": {
       "type": "jewelry-collection",
+      "blocks": {
+        "52a74a7d-b4a0-4cef-bc8a-00f253cd167d": {
+          "type": "collection-item",
+          "settings": {
+            "title": "Bracelets",
+            "image": "shopify:\/\/shop_images\/collection-1.webp"
+          }
+        },
+        "74e32eab-8783-4b03-b797-c63d056fc14d": {
+          "type": "collection-item",
+          "settings": {
+            "title": "Necklaces",
+            "image": "shopify:\/\/shop_images\/collection-2.webp"
+          }
+        },
+        "c187ca28-0fff-4ded-9276-6b6c306b0213": {
+          "type": "collection-item",
+          "settings": {
+            "title": "Rings",
+            "image": "shopify:\/\/shop_images\/collection-3.webp"
+          }
+        },
+        "d16aab5b-098f-4f21-ab10-12f526546d66": {
+          "type": "collection-item",
+          "settings": {
+            "title": "Customize",
+            "image": "shopify:\/\/shop_images\/collection-4.webp"
+          }
+        }
+      },
+      "block_order": [
+        "52a74a7d-b4a0-4cef-bc8a-00f253cd167d",
+        "74e32eab-8783-4b03-b797-c63d056fc14d",
+        "c187ca28-0fff-4ded-9276-6b6c306b0213",
+        "d16aab5b-098f-4f21-ab10-12f526546d66"
+      ],
       "settings": {
         "title": "Our Collections",
         "description": "Tap into the amazing blend of spirituality and style with our extensive handmade jewelry collection for both men and women."
