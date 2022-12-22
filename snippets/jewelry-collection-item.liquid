@@ -1,3 +1,14 @@
+{% comment %}
+  Renders a jewelry collection item
+
+  Accepts:
+  - img: {Object} image Liquid object
+  - title: {String} Size of the product image card. Values are "square" and "portrait". Default is "square" 
+
+  Usage:
+  {% render 'jewelry-collection-item', title: section.settings.title %}
+{% endcomment %}
+
 <div
   class="collection-item">
   <div
@@ -5,7 +16,8 @@
   <div
     class="content">
     <h4
-      class="type"></h4>
+      class="type">
+      {{ title }}</h4>
     <button
       class="shop-collection">Shop Collection</button>
   </div>
