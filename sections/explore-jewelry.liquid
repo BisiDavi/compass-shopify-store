@@ -1,10 +1,49 @@
-<div class="explore-jewelry">
-  <div class="text-content">
+<div
+  class="explore-jewelry">
+  <div
+    class="text-content">
     <h3>New Compass, Old love</h3>
     <p>The new handpicked Compass lineup is exclusively designed for you with one simple aim–to guide you to inspire and express your individuality while maintaining the style quotient.</p>
-    <button>Explore Noew</button>
+    <button>Explore Now</button>
   </div>
-  <div class="images">
-    
-  </div>
+  <div
+    class="images"></div>
 </div>
+
+{% schema %}
+  {
+    "name": "Featured Jewelry",
+    "tag": "section",
+    "class": "featured_jewelry",
+    "blocks": [
+      {
+        "type": "image_picker",
+        "id": "imge",
+        "label": "Upload Jewelry"
+      }, {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "New Compass, Old love"
+      }
+    ],
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "New Compass, Old love"
+      }, {
+        "type": "text",
+        "id": "text",
+        "label": "Text",
+        "default": "The new handpicked Compass lineup is exclusively designed for you with one simple aim–to guide you to inspire and express your individuality while maintaining the style quotient."
+      }, {
+        "type": "text",
+        "id": "button_label",
+        "label": "Button label",
+        "default": "Explore Now"
+      }
+    ]
+  }
+{% endschema %}

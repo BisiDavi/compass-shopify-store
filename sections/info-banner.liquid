@@ -1,7 +1,32 @@
-<div class="info-banner">
-  <div class="content">
-    <h2>Welcome to Compass Jewelry</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+<div
+  class="info-banner">
+  <div
+    class="content">
+    <h2>
+      {{ section.settings.title }}
+    </h2>
+    <p>{{ section.settings.text }}
     </p>
   </div>
 </div>
+
+{% schema %}
+  {
+    "name": "Info Banner",
+    "tag": "section",
+    "class": "info-banner",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Welcome to Compass Jewelry"
+      }, {
+        "type": "text",
+        "id": "text",
+        "label": "Text",
+        "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+      }
+    ]
+  }
+{% endschema %}
