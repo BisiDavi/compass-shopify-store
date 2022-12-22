@@ -1,31 +1,80 @@
 {
   "sections": {
     "hero-banner": {
-      "type": "hero-banner"
+      "type": "hero-banner",
+      "blocks": {
+        "09286576-ffc2-47d6-8ec8-3bb3c9a28fb8": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hero-banner.webp",
+            "title": "Lorem Ipsum Dolor Sit",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+            "button_label": "Explore All"
+          }
+        }
+      },
+      "block_order": [
+        "09286576-ffc2-47d6-8ec8-3bb3c9a28fb8"
+      ],
+      "settings": {
+      }
     },
     "info-banner": {
-      "type": "info-banner"
+      "type": "info-banner",
+      "settings": {
+        "title": "Welcome to Compass Jewelry",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+      }
     },
     "explore-jewelry": {
-      "type": "explore-jewelry"
+      "type": "explore-jewelry",
+      "settings": {
+      }
     },
     "custom-jewelry": {
-      "type": "custom-jewelry"
+      "type": "custom-jewelry",
+      "settings": {
+        "title": "Bring Your Custom Design to Life",
+        "text": "Have something great in mind? Send us your designs and get mesmerizing Compass out of them!",
+        "button_label": "Explore Now"
+      }
     },
     "collection-grid": {
-      "type": "collection-grid"
+      "type": "collection-grid",
+      "settings": {
+        "title": "KIZZO x COMPASS",
+        "info": "Bracelet that Inspires Creativity of a Grammy Award Winner!",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+      }
     },
     "jewelry-collection": {
-      "type": "jewelry-collection"
+      "type": "jewelry-collection",
+      "settings": {
+        "title": "Our Collections",
+        "description": "Tap into the amazing blend of spirituality and style with our extensive handmade jewelry collection for both men and women."
+      }
     },
     "our-story": {
-      "type": "our-story"
+      "type": "our-story",
+      "settings": {
+        "title": "Our Story–Where It All Started",
+        "story": "With the aim to create jewelry that can help those in need of healing, empowerment and inspiration, we stepped into the business of jewelry designing. We create pieces using sacred and healing stones and symbols. Whether it is a diamond bracelet, gold ring, or beaded necklace, each design is created to bring healing and positivity to its wearer. The compass is a powerful symbol of motivation for someone who is feeling lost. And with our jewelry, we have captured this very essence of a compass. That's why our Compass jewelry is both a spiritual and fashion accessory, worn as sweet reminders of your inner spiritual aspirations. We believe that just like our souls, jewelry that embraces it too must be pious."
+      }
     },
     "hallmark": {
-      "type": "hallmark"
+      "type": "hallmark",
+      "settings": {
+        "title": "Fundamentals We Follow",
+        "text": "We are proud to present the duality of sophistication and ease on the one hand and the power of spiritual enrichment on the other. As a reliable jewelry brand, we specialize in ensuring top-notch customer experiences that are consciously designed to embody our four pillars of brand philosophy given below:"
+      }
     },
     "site-newsletter": {
-      "type": "site-newsletter"
+      "type": "site-newsletter",
+      "settings": {
+        "title": "Join our world",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo Lorem ipsum",
+        "button_label": "Send"
+      }
     }
   },
   "order": [
