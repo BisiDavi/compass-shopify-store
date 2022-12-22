@@ -97,11 +97,28 @@
             "image": "shopify:\/\/shop_images\/fundamental-1.webp",
             "description": "Balance as a fundamental aspect of our design philosophy, with a healthy tension between meaning and form. Our pieces are also immersed in meaning for the stones used, are sacred and precious for their specific range of spiritual vibration."
           }
+        },
+        "27197bd5-6285-487f-8443-b2daedc907e8": {
+          "type": "hallmark-item",
+          "settings": {
+            "title": "The Tradition",
+            "image": "shopify:\/\/shop_images\/fundamental-3.webp",
+            "description": "We take pride in the fact that we are a rooted brand inspired by the splendid craftsmanship, awestruck artistry and rich Dutch heritage as well as the swag of the Caribbean soul. We stride to continually grow in unique directions."
+          }
+        },
+        "ea080daf-575c-4195-844d-0b63684f074c": {
+          "type": "hallmark-item",
+          "settings": {
+            "title": "The Inspiration",
+            "description": "Let your heart be your compass, your mind your map, your soul your guide...and you will never be lost. (Ritu Ghatourey). We think that this quote is what sums up the whole idea behind the creation of our brand."
+          }
         }
       },
       "block_order": [
         "ef83e36d-0bd6-407a-8082-d57dae9ab978",
-        "184b9ece-0035-43e5-8740-2a02d1c22d83"
+        "184b9ece-0035-43e5-8740-2a02d1c22d83",
+        "27197bd5-6285-487f-8443-b2daedc907e8",
+        "ea080daf-575c-4195-844d-0b63684f074c"
       ],
       "settings": {
         "title": "Fundamentals We Follow",
