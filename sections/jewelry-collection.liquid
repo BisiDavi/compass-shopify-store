@@ -1,3 +1,57 @@
-<div class="collection">
-    
+<div
+  class="collection">
+  <h3
+    class="title">{{ section.settings.titlte }}</h3>
+  <p
+    class="description">
+    {{ section.settings.description }}
+  </p>
+  <div
+    class="collection-item-grid">
+    {% for block in section.blocks %}
+      {% render 'jewelry-collection-item'
+       , img: block.settings.image
+       , title: block.settings.title %}
+    {% endfor %}
+  </div>
 </div>
+
+{% schema %}
+  {
+    "name": "Jewelery Collection",
+    "tag": "section",
+    "class": "jewelery_collection",
+    "blocks": [
+      {
+        "type": "collection-item",
+        "name": "Collection Item",
+        "limit": 4,
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Bracelets"
+          }, {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Upload Image"
+          }
+        ]
+      }
+    ],
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Our Collections"
+      }, {
+        "type": "text",
+        "id": "description",
+        "label": "Description",
+        "default": "Tap into the amazing blend of spirituality and style with our extensive handmade jewelry collection for both men and women."
+      }
+    ]
+  }
+{% endschema %}
