@@ -182,3 +182,43 @@ explore_jewelry .text-content p {
   font-size: 16px;
   line-height: 23px;
 }
+
+/* jewelry_collection */
+.jewelry_collection {
+  padding: 80px 140px;
+  background-color: black;
+}
+
+.jewelry_collection .description {
+  color: white;
+  margin: 20px auto 70px auto;
+  text-align: center;
+  width: 50%;
+  font-size: 14px;
+}
+
+.jewelry_collection h3.title {
+  color: white;
+  text-align: center;
+  font-size: 32px;
+  text-align: center;
+  line-height: 43px;
+}
+
+.collection-item-grid .collection-item img {
+  width: 100%;
+}
+
+.collection-item-grid .content {
+  position: absolute;
+  z-index: 1;
+  top: 30%;
+  left: 35%;
+}
+
+.jewelry_collection button.shop-collection {
+  border: 1px solid #f1c17f;
+  background: none;
+  color: white;
+  padding: 15px 30px;
+}
