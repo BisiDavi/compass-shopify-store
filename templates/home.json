@@ -1,0 +1,31 @@
+{
+  "sections": {
+    "hero-banner": {
+      "type": "hero-banner"
+    },
+    "info-banner": {
+      "type": "info-banner"
+    },
+    "explore-jewelry": {
+      "type": "explore-jewelry"
+    },
+    "custom-jewelry": {
+      "type": "custom-jewelry"
+    },
+    "collection-grid": {
+      "type": "collection-grid"
+    },
+    "jewelry-collection": {
+      "type": "jewelry-collection"
+    },
+    "our-story": {
+      "type": "our-story"
+    },
+    "hallmark": {
+      "type": "hallmark"
+    },
+    "site-newsletter": {
+      "type": "site-newsletter"
+    }
+  }
+}
