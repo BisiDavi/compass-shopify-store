@@ -11,10 +11,19 @@
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
             "button_label": "Explore All"
           }
+        },
+        "fb8b68ac-b0e8-444f-a834-19639adecfb7": {
+          "type": "slide",
+          "settings": {
+            "title": "Lorem Ipsum Dolor Sit",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+            "button_label": "Explore Now"
+          }
         }
       },
       "block_order": [
-        "09286576-ffc2-47d6-8ec8-3bb3c9a28fb8"
+        "09286576-ffc2-47d6-8ec8-3bb3c9a28fb8",
+        "fb8b68ac-b0e8-444f-a834-19639adecfb7"
       ],
       "settings": {
       }
