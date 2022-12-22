@@ -27,5 +27,16 @@
     "site-newsletter": {
       "type": "site-newsletter"
     }
-  }
+  },
+  "order": [
+    "hero-banner",
+    "info-banner",
+    "explore-jewelry",
+    "custom-jewelry",
+    "collection-grid",
+    "jewelry-collection",
+    "our-story",
+    "hallmark",
+    "site-newsletter"
+  ]
 }
