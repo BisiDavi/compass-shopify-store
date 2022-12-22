@@ -130,10 +130,6 @@ explore_jewelry .text-content p {
   width: 65%;
 }
 
-.custom-jewelry .text-content {
-  width: 35%;
-}
-
 .custom-jewelry h3 {
   color: white;
   font-size: 32px;
@@ -142,6 +138,11 @@ explore_jewelry .text-content p {
 
 .custom-jewelry img {
   width: 100%;
+}
+
+.custom-jewelry .text-context {
+  width: 30%;
+  color: white;
 }
 
 /* collection grid */
@@ -160,9 +161,24 @@ explore_jewelry .text-content p {
 
 .collection-grid .text-content .text {
   width: 50%;
-  margin: 20px auto;
+  margin: 0px auto 0px auto;
 }
 
 .collection-grid .text-content {
   padding: 0px 140px 80px 0px;
+}
+
+.collection-grid .text-content h3.title {
+  padding: 0px;
+  margin: 0px;
+}
+
+.collection-grid .grid img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.collection-grid p.info {
+  font-size: 16px;
+  line-height: 23px;
 }
