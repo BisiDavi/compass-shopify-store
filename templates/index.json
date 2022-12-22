@@ -33,13 +33,13 @@
       "type": "info-banner",
       "settings": {
         "title": "Welcome to Compass Jewelry",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
       }
     },
     "explore-jewelry": {
       "type": "explore-jewelry",
       "settings": {
-        "product": "frontpage",
+        "products": "frontpage",
         "title": "New Compass, Old love",
         "text": "The new handpicked Compass lineup is exclusively designed for you with one simple aim–to guide you to inspire and express your individuality while maintaining the style quotient",
         "button_label": "Explore Now"
