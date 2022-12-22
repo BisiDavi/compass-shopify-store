@@ -1,10 +1,39 @@
-<div class="newsletter">
-  <h3 class="title">Join our world</h3>
-  <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-    Lorem ipsum
+<div
+  class="newsletter">
+  <h3
+    class="title">{{ section.settings.title }}</h3>
+  <p
+    class="text">{{ section.settings.text }}
   </p>
   <form>
-    <input placeholder="Email Address" />
-    <button>Send</button>
+    <input
+      placeholder="Email Address" />
+    <button>{{ section.settings.button_label }}</button>
   </form>
 </div>
+
+{% schema %}
+  {
+    "name": "Newsletter",
+    "tag": "section",
+    "class": "newsletter",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Join our world"
+      }, {
+        "type": "text",
+        "id": "text",
+        "label": "Text",
+        "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo Lorem ipsum "
+      }, {
+        "type": "text",
+        "id": "button_label",
+        "label": "Button Label",
+        "default": "Send"
+      }
+    ]
+  }
+{% endschema %}

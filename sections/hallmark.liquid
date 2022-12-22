@@ -1,4 +1,66 @@
-<div class="hallmark">
-    <h3 class="title"></h3>
-    <p class="text"></p>
+<div
+  class="hallmark">
+  <h3
+    class="title">
+    {{ section.settings.title }}
+  </h3>
+  <p
+    class="text">
+    {{ section.settings.text }}
+  </p>
+  <div
+    class="fundamentals group">
+    {% for block in section.blocks %}
+      {% render 'hallmark-item'
+       , title: block.settings.title
+       , image: block.settings.image
+       , description: block.settings.description %}
+    {% endfor %}
+  </div>
 </div>
+
+{% schema %}
+  {
+    "name": "Fundamentals",
+    "tag": "section",
+    "class": "fundamentals",
+    "blocks": [
+      {
+        "name": "Fundamental Item",
+        "limit": 4,
+        "type": "hallmark-item",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "The Inspiration"
+          }, {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Upload Image"
+          }, {
+            "type": "textarea",
+            "id": "description",
+            "label": "Description",
+            "default": "Let your heart be your compass, your mind your map, your soul your guide...and you will never be lost. (Ritu Ghatourey). We think that this quote is what sums up the whole idea behind the creation of our brand."
+          }
+        ]
+      }
+    ],
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "title",
+        "default": "Fundamentals We Follow"
+      }, {
+        "type": "textarea",
+        "id": "text",
+        "label": "description",
+        "default": "We are proud to present the duality of sophistication and ease on the one hand and the power of spiritual enrichment on the other. As a reliable jewelry brand, we specialize in ensuring top-notch customer experiences that are consciously designed to embody our four pillars of brand philosophy given below:"
+      }
+    ]
+
+  }
+{% endschema %}
