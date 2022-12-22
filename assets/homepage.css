@@ -1,0 +1,26 @@
+/* info-banner */
+section.shopify-section.info-banner {
+  background-color: black;
+  color: white;
+  height: 300px;
+}
+info-banner .content h2 {
+  color: white;
+}
+
+.info-banner {
+  height: 100%;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-banner .content {
+  text-align: center;
+  width: 50%;
+}
+
+.info-banner .content p {
+  font-size: 20px;
+}
