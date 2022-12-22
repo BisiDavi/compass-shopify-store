@@ -39,11 +39,16 @@
     "explore-jewelry": {
       "type": "explore-jewelry",
       "settings": {
+        "product": "",
+        "title": "New Compass, Old love",
+        "text": "The new handpicked Compass lineup is exclusively designed for you with one simple aim–to guide you to inspire and express your individuality while maintaining the style quotient",
+        "button_label": "Explore Now"
       }
     },
     "custom-jewelry": {
       "type": "custom-jewelry",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_16.png",
         "title": "Bring Your Custom Design to Life",
         "text": "Have something great in mind? Send us your designs and get mesmerizing Compass out of them!",
         "button_label": "Explore Now"
