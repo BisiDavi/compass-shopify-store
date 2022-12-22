@@ -10,7 +10,7 @@
     class="collection-item-grid">
     {% for block in section.blocks %}
       {% render 'jewelry-collection-item'
-       , img: block.settings.image
+       , image: block.settings.image
        , title: block.settings.title %}
     {% endfor %}
   </div>
