@@ -129,6 +129,7 @@
     "site-newsletter": {
       "type": "site-newsletter",
       "settings": {
+        "image": "shopify:\/\/shop_images\/newsletter.webp",
         "title": "Join our world",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo Lorem ipsum",
         "button_label": "Send"
