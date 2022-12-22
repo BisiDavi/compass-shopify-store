@@ -90,9 +90,56 @@ explore_jewelry .text-content p {
   font-size: 16px;
   line-height: 22px;
   color: #f1c17f;
+  text-align: center;
+  margin: 10px auto;
 }
 
 .explore_jewelry .jewelry .text-content h4 {
   font-size: 14px;
   line-height: 19px;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.explore_jewelry .jewelry .text-content {
+  width: 100%;
+}
+
+.explore-jewelry button,
+.custom-jewelry button {
+  padding: 0px 10px;
+  height: 40px;
+  width: 150px;
+  border: 0px;
+  margin-top: 10px;
+}
+
+/* custom jewelry */
+.custom_jewelry {
+  background-color: black;
+}
+
+.custom-jewelry {
+  display: flex;
+  padding: 80px 140px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.custom-jewelry .content-media {
+  width: 65%;
+}
+
+.custom-jewelry .text-content {
+  width: 35%;
+}
+
+.custom-jewelry h3 {
+  color: white;
+  font-size: 32px;
+  line-height: 43px;
+}
+
+.custom-jewelry img {
+  width: 100%;
 }
