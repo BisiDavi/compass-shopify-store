@@ -222,3 +222,31 @@ explore_jewelry .text-content p {
   color: white;
   padding: 15px 30px;
 }
+
+/* our_story */
+.our-story.shopify-section {
+  background-color: #111111;
+  padding: 80px 140px;
+}
+
+.our-story .left h3.title {
+  color: white;
+  font-size: 32px;
+}
+
+.our-story .left .text {
+  width: 80%;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.our-story {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.our-story .left {
+  margin-right: 20px;
+}
