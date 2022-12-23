@@ -246,8 +246,8 @@
       {%- render 'cart-drawer' -%}
     {%- endif -%}
 
-    {% section 'announcement-bar' %}
-  <div class="header-view {{ routes.path }} {{ routes.root_url }} {% if routes.path == routes.root_url %} header-homepage {% endif %}">
+    {% comment %} {% section 'announcement-bar' %} {% endcomment %}
+  <div class="header-view {{ routes.path }} {{ routes.root_url }} {% if routes.root_url %} header-homepage {% endif %}">
     {% section 'header' %}
   </div>
     
