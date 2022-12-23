@@ -295,6 +295,7 @@ explore_jewelry .text-content p {
   color: white;
   font-size: 32px;
   text-align: center;
+  margin: 0px;
 }
 
 .hallmark-item h5.title {
