@@ -247,7 +247,7 @@
     {%- endif -%}
 
     {% comment %} {% section 'announcement-bar' %} {% endcomment %}
-  <div class="header-view  {% if routes.root_url %} header-homepage {{ routes.path }} hello {{ routes.root_url }} {% endif %}">
+  <div class="header-view  {% if routes.root_url %} header-homepage {{ request.path }} hello {{ routes.root_url }} {% endif %}">
     {% section 'header' %}
   </div>
     
