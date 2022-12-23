@@ -216,6 +216,12 @@ explore_jewelry .text-content p {
   left: 35%;
 }
 
+.jewelry_collection .collection-item-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
 .jewelry_collection button.shop-collection {
   border: 1px solid #f1c17f;
   background: none;
@@ -259,7 +265,7 @@ explore_jewelry .text-content p {
 }
 
 .hallmark {
-  padding: 100px 140px;
+  padding: 80px 140px;
 }
 
 .hallmark p.text {
@@ -299,7 +305,59 @@ explore_jewelry .text-content p {
 }
 
 /* newsletter */
+.newsletter {
+  position: relative;
+}
+
 .newsletter-image img {
   width: 100%;
   height: 400px;
+}
+
+.newsletter-content {
+  position: absolute;
+  color: white;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.newsletter-content h3 {
+  color: white;
+  font-size: 32px;
+  text-align: center;
+}
+
+.newsletter-content p.text {
+  text-align: center;
+  font-size: 14px;
+}
+
+.newsletter-content form button {
+  width: 150px;
+  margin: 30px auto;
+  height: 40px;
+}
+
+.newsletter-content form {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+.newsletter-content form input {
+  background: none;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  padding: 5px 0px;
+}
+
+.newsletter-content input::placeholder {
+  color: white;
+  font-size: 14px;
 }
