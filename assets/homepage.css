@@ -1,6 +1,10 @@
 /* header */
-sticky-header.header-wrapper {
+.header-homepage sticky-header.header-wrapper {
   background: none;
+}
+
+sticky-header.header-wrapper {
+  background: black;
 }
 
 .header-homepage .header__menu-item span,
