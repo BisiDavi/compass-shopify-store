@@ -1,3 +1,24 @@
+/* header */
+sticky-header.header-wrapper {
+  background: none;
+}
+
+.header__menu-item span,
+h1.header__heading a span.h2,
+.header__icons a,
+.header__icons span {
+  color: white;
+}
+
+div#shopify-section-header {
+  background: none;
+  position: absolute;
+  width: 100%;
+  color: white;
+  z-index: 10;
+  border-bottom: 1px solid #ffffff;
+}
+
 /* info-banner */
 section.shopify-section.info-banner {
   background-color: black;
