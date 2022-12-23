@@ -217,6 +217,11 @@ explore_jewelry .text-content p {
   max-width: 100%;
 }
 
+.collection-grid .grid img:hover {
+  transform: none;
+  transition: none;
+}
+
 .collection-grid p.info {
   font-size: 16px;
   line-height: 23px;
@@ -400,6 +405,11 @@ explore_jewelry .text-content p {
 .newsletter-content input::placeholder {
   color: white;
   font-size: 14px;
+}
+
+img:hover {
+  transform: scale(0.98) !important;
+  transition: 0.5s;
 }
 
 @media (min-width: 1600px) {
