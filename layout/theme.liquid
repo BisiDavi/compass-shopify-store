@@ -30,9 +30,7 @@
     {% render 'meta-tags' %}
 
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
-    <div class="header-view {% if routes.root_url %} header-homepage {% endif %}">
       {{ content_for_header }}
-    </div>
 
     {%- liquid
       assign body_font_bold = settings.type_body_font | font_modify: 'weight', 'bold'
@@ -249,7 +247,9 @@
     {%- endif -%}
 
     {% section 'announcement-bar' %}
+  <div class="header-view {% if routes.root_url %} header-homepage {% endif %}">
     {% section 'header' %}
+  </div>
     
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
