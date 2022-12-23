@@ -247,7 +247,7 @@
     {%- endif -%}
 
     {% section 'announcement-bar' %}
-  <div class="header-view {{ request.path }} {% if routes.url %} header-homepage {% endif %}">
+  <div class="header-view {% if routes.path == routes.root_url %} header-homepage {% endif %}">
     {% section 'header' %}
   </div>
     
