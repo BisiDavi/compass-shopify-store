@@ -1,7 +1,5 @@
-<div
-  class="newsletter">
-  <div
-    class="newsletter-image">
+<div class="newsletter">
+  <div class="newsletter-image">
     {% if section.settings.image %}
       <img
         srcset="{%- if section.settings.image.width >= 375 -%}
@@ -31,16 +29,15 @@
       {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
     {% endif %}
   </div>
-  <h3
-    class="title">{{ section.settings.title }}</h3>
-  <p
-    class="text">{{ section.settings.text }}
-  </p>
-  <form>
-    <input
-      placeholder="Email Address" />
-    <button>{{ section.settings.button_label }}</button>
-  </form>
+  <div class="newsletter-content">
+    <h3 class="title">{{ section.settings.title }}</h3>
+    <p class="text">{{ section.settings.text }}
+    </p>
+    <form>
+      <input placeholder="Email Address" />
+      <button>{{ section.settings.button_label }}</button>
+    </form>
+  </div>
 </div>
 
 {% schema %}

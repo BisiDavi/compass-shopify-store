@@ -248,5 +248,58 @@ explore_jewelry .text-content p {
 }
 
 .our-story .left {
-  margin-right: 20px;
+  margin-right: 25px;
+}
+
+/* fundamentals */
+.fundamentals {
+  background-color: black;
+  padding: 5px 0px;
+  color: white;
+}
+
+.hallmark {
+  padding: 100px 140px;
+}
+
+.hallmark p.text {
+  width: 50%;
+  margin: 20px auto 50px auto;
+}
+
+.fundamentals.group {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.hallmark h3.title {
+  color: white;
+  font-size: 32px;
+  text-align: center;
+}
+
+.hallmark-item h5.title {
+  font-size: 25px;
+  color: white;
+  line-height: 33px;
+  text-align: center;
+}
+
+.hallmark .hallmark-item p.text {
+  width: 100%;
+  text-align: center;
+  height: 180px;
+}
+
+.hallmark-item h6 {
+  color: #f1c17f;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* newsletter */
+.newsletter-image img {
+  width: 100%;
+  height: 400px;
 }
