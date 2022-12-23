@@ -1,6 +1,6 @@
 {
   "sections": {
-    "custom-slideshow": {
+    "78394224-31fc-491c-8d79-b473bdf4dafa": {
       "type": "custom-slideshow",
       "blocks": {
         "template--17256854094108__78394224-31fc-491c-8d79-b473bdf4dafa-1671757067f2ce7d70-0": {
@@ -51,7 +51,7 @@
         "auto_rotate": true,
         "change_slides_speed": 5,
         "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
+        "accessibility_info": "welcome to compass"
       }
     },
     "info-banner": {
@@ -195,11 +195,15 @@
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo Lorem ipsum",
         "button_label": "Send"
       }
+    },
+    "hero-banner": {
+      "type": "hero-banner",
+      "settings": {
+      }
     }
   },
   "order": [
-    "custom-slideshow",
-    "hero-banner",
+    "78394224-31fc-491c-8d79-b473bdf4dafa",
     "info-banner",
     "explore-jewelry",
     "custom-jewelry",
@@ -207,6 +211,7 @@
     "jewelry-collection",
     "our-story",
     "hallmark",
-    "site-newsletter"
+    "site-newsletter",
+    "hero-banner"
   ]
 }
