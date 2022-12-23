@@ -39,7 +39,7 @@
     "explore-jewelry": {
       "type": "explore-jewelry",
       "settings": {
-        "products": "frontpage",
+        "collection": "",
         "title": "New Compass, Old love",
         "text": "The new handpicked Compass lineup is exclusively designed for you with one simple aim–to guide you to inspire and express your individuality while maintaining the style quotient",
         "button_label": "Explore Now"
@@ -110,7 +110,7 @@
       "type": "our-story",
       "settings": {
         "title": "Our Story–Where It All Started",
-        "story": "With the aim to create jewelry that can help those in need of healing, empowerment and inspiration, we stepped into the business of jewelry designing. We create pieces using sacred and healing stones and symbols. Whether it is a diamond bracelet, gold ring, or beaded necklace, each design is created to bring healing and positivity to its wearer. The compass is a powerful symbol of motivation for someone who is feeling lost. And with our jewelry, we have captured this very essence of a compass. That's why our Compass jewelry is both a spiritual and fashion accessory, worn as sweet reminders of your inner spiritual aspirations. We believe that just like our souls, jewelry that embraces it too must be pious.",
+        "story": "With the aim to create jewelry that can help those in need of healing, empowerment and inspiration, we stepped into the business of jewelry designing. \n\nWe create pieces using sacred and healing stones and symbols. Whether it is a diamond bracelet, gold ring, or beaded necklace, each design is created to bring healing and positivity to its wearer. \n\nThe compass is a powerful symbol of motivation for someone who is feeling lost. And with our jewelry, we have captured this very essence of a compass. That's why our Compass jewelry is both a spiritual and fashion accessory, worn as sweet reminders of your inner spiritual aspirations. We believe that just like our souls, jewelry that embraces it too must be pious.",
         "image-1": "shopify:\/\/shop_images\/our-story.webp",
         "image-2": "shopify:\/\/shop_images\/compass.webp"
       }
