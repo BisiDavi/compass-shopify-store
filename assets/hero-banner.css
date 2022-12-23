@@ -5,6 +5,8 @@
 .slideshow__text.banner__box.content-container.content-container--full-width-mobile.color-background-1.gradient.slideshow__text--center.slideshow__text-mobile--center {
   background: none;
   color: white;
+  padding: 0px;
+  max-width: 800px;
 }
 
 .slideshow__text h2.banner__heading.h1 {
