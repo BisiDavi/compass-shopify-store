@@ -10,7 +10,7 @@ h1.header__heading a span.h2,
   color: white;
 }
 
-div#shopify-section-header {
+.header-homepage #shopify-section-header {
   background: none;
   position: absolute;
   width: 100%;
