@@ -3,10 +3,10 @@ sticky-header.header-wrapper {
   background: none;
 }
 
-.header__menu-item span,
-h1.header__heading a span.h2,
-.header__icons a,
-.header__icons span {
+.header-homepage .header__menu-item span,
+.header-homepage h1.header__heading a span.h2,
+.header-homepage .header__icons a,
+.header-homepage .header__icons span {
   color: white;
 }
 
